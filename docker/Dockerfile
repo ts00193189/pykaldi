@@ -21,7 +21,8 @@ RUN apt-get update \
     subversion \
     unzip \
     wget \
-    zlib1g-dev
+    zlib1g-dev \
+    sox
 
 # Make python3 default
 RUN ln -s /usr/bin/python3 /usr/bin/python \
@@ -43,6 +44,6 @@ RUN cd /pykaldi/tools \
     && ./check_dependencies.sh \
     && ./install_protobuf.sh \
     && ./install_clif.sh \
-    && ./install_kaldi.sh \
+    #&& ./install_kaldi.sh \
     && cd .. \
-    && python setup.py install
+    #&& python setup.py install
