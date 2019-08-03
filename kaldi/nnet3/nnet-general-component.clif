@@ -396,7 +396,7 @@ from "nnet3/nnet-general-component.h":
       
       
     class SpecAugmentTimeMaskComponent(RandomComponent):
-     @add__init__
+      @add__init__
       def `SpecAugmentTimeMaskComponent` as from_other(self,
                                                       other: SpecAugmentTimeMaskComponent)
 
