@@ -44,6 +44,6 @@ RUN cd /pykaldi/tools \
     && ./check_dependencies.sh \
     && ./install_protobuf.sh \
     && ./install_clif.sh \
-    #&& ./install_kaldi.sh \
+    && ./install_kaldi.sh \
     && cd .. \
-    #&& python setup.py install
+    && python setup.py install
