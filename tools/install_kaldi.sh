@@ -4,7 +4,7 @@
 #
 set -e
 
-KALDI_GIT="-b pykaldi_Specaugment https://github.com/ts00193189/kaldi.git"
+KALDI_GIT="-b pykaldi_SpecAugment https://github.com/ts00193189/kaldi.git"
 
 KALDI_DIR="$PWD/kaldi"
 
